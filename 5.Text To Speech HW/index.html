@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Text to Speech</title>
+  </head>
+  <body class="container mt-5 bg-dark">
+    <h2 class="make-it-yellow d-flex pb-3 justify-content-center">Text to Speech with The Dark Lord</h2>
+    
+    <div class="tower">
+        <img class="main-imagie" id="anchor" src="./Sauran/lotr-sauron-character-guide-social.png" alt="">
+        <img class="eye" id="eye" src="./Sauran/eyeBall.png" alt="">
+    </div>
+    <div class="stuf d-flex flex-column justify-content-center align-items-center pt-2">
+        <p class="lead make-it-yellow">Select Voice</p>
+        <select id="voices" class="form-select  make-it-other-yellow"></select>
+        <textarea class="form-control make-it-other-yellow  mt-3"  placeholder="What you seek to hear?...">
+        </textarea>
+        <div class="d-flex justify-content-center">
+            <button id="start" class="btn-lg make-it-other-yellow make-it-yellow mt-3">Whisper</button>
+        </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(47, 38, 38);
+}
+
+th{
+    border:1.6px solid rgb(255, 255, 255);
+    padding: .6rem;
+    color: rgb(255, 255, 255);    
+    width: 16rem;
+}
+
+input{
+    background-color: rgb(47, 38, 38);
+    padding: 1rem;
+}
+
+#theTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.table-it-self{
+    display:flex;
+   justify-content:center;
+}
+.table-elements{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, label{
+    display:flex;
+   justify-content:center;
+   align-items: center;
+}
+
+.make-them-row{
+    display: flex;
+    flex-direction: row;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

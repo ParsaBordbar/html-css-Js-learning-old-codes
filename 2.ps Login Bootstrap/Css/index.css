@@ -1,0 +1,62 @@
+@import url(./bootstrap.css);
+
+.bg-log{
+    background-image: url(../Pics/wallpaper.jpg);
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 3.6rem;
+}
+
+.txt-bx{
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.log-in{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    background-color: var(--bs-white);
+    width: 50rem;
+    height: 50rem;
+    box-shadow: 10px 14px 22px rgba(0, 0, 0, 0.3);
+}
+
+.e-mail-box{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .01rem;
+}
+
+.pading-1{
+    padding: .2rem 1rem;
+    font-size: 1.6rem;
+    align-self: flex-start;
+}
+
+.img-size{
+    width: 50rem;
+    height: 10rem;
+}
+
+.size{
+    width: 30rem;
+    height: 3.6rem;
+}
+
+.pading-2{
+    padding: 2rem .1rem;
+}

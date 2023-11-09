@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+ @font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Yekan.woff2') format('woff2'),
+    url('../fonts/Yekan.woff') format('woff'), 
+    url('../fonts/Yekan.otf') format('opentype'), 
+    url('../fonts/Yekan.ttf') format('truetype'); 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* Typo utilities for text */
+.typo-medium{
+    font-family: roboto;
+    font-size:medium;
+    color: #333333;
+}
+
+.typo-small-mblu{
+    font-family: roboto;
+    font-size:small;
+    color: #29C6CF;
+    padding: .5rem;
+}
+
+.typo-small-white{
+    font-family: roboto;
+    font-size:small;
+    color: #ffffff;
+}
+
+.typo-sub{
+    font-family: roboto;
+    font-size:smaller;
+    color: #333333;
+}
+
+main{
+    background-color: #225470;
+    height: auto;
+    width: 100%;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.cols{
+    display: flex;
+    padding: 3rem;
+    margin: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20rem;
+    flex-direction: row;
+}
+
+.img-border{
+    border-radius: 1.2rem;    
+}
+
+.left{
+    color:white;
+    font-weight:bold;
+    font-size :large ;
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 30rem;
+}
+
+.right{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.sub-col{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.4rem;
+    margin: 0.5 rem;
+    background-color: #FFFFFF;
+    width: 31.2rem; 
+    height: 281px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.txt{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    padding: 2rem;
+}
+
+.curved{
+    border: 1px;
+    border-radius: 20px;
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.4rem;
+    margin: 0.5 rem;
+    background-color: #FFFFFF;
+    width: 31.2rem; 
+    height: 281px;
+    border-radius: 12px;
+}
+
+.item3 {
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 31.2rem;
+    Height:590px;
+    border-radius: 12px;
+}
+
+.pading{
+    padding: 2rem;
+}
+.therow{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    row-gap: 1rem;
+    background-color: #FFFFFF;
+    height: 226px;
+    width: 64.2rem;
+    border-radius: 12px;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: .5rem;
+    gap: 21rem;
+}

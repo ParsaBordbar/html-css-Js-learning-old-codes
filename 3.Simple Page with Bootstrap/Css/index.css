@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'Syne';
+    src: url(../Components/Fonts/Syne-VariableFont_wght.ttf);
+} 
+
+a {
+    text-decoration: none;
+    color: var(--bs-gray-600);
+    opacity: 75%;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+main{
+    background-color: #FCFAFF;
+}
+
+.banner{
+    margin: 0;
+    padding: 0;
+}
+
+.header-bar{
+    height: 76px;
+    background-color:#FFFFFF;;
+    border-bottom:1px solid hsla(293, 77%, 93%, 1);
+}
+
+.logo{
+    padding: 0 20rem;
+}
+
+.banner-center{
+    padding-top: 4rem;
+}
+
+.sm-txt{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+    padding: 0 18.8rem;
+}
+
+.sell-btn{
+    background-color: #532C59;
+    width: 114px;
+    height: 52px;
+    border-radius: 15px;
+}
+
+.left-top-pic{
+    width: 8rem;
+    height: 6rem;
+}
+
+.banner-size{
+    width:10rem;
+}
+
+.banner-left{
+    padding-left: 5rem;
+}
+
+.banner-right{
+    padding-right: 5rem;
+    gap: 12rem;
+}
+
+.left-bottom-pic{
+    width:16rem;
+    height:24rem;
+    padding-top: 10rem;
+}
+
+.padding-buttom{
+    padding-bottom: 4rem;
+}
+
+.padding-top-extra{
+    padding-top: 8.5rem;
+}
+
+.txt-color{
+    color: hsla(292, 34%, 26%, 1);
+    
+}
+
+.sub-txt{
+    height: 4.8rem;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.card{
+    border: none;
+    background-color: #FCFAFF;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.gap-extra{
+    display: flex;
+    gap: 12rem;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.header-txt-color{
+    color: Black;
+}
+
+.logo-txt{
+    /* font-family: 'Space Grotesk'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.our-line {
+    padding-top: 4rem;
+}
+
+.card1{
+    border: 1px solid #D6BCFA;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #FFFFFF;
+}
+
+.address-txt{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-card-txt{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.opa-lvl1{
+    opacity: 55%;
+}
+
+.opa-lvl2{
+    opacity: 20%;
+}
+
+.accordion-item{
+    padding: 3rem;
+    background: #FCFAFF;
+    width: 28rem;
+    border: none;
+}
+
+.accordion-style{
+    background-color: #FCFAFF;
+    text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background: #FCFAFF;
+}
+
+.accordion-button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.4rem;
+    gap: 1rem;
+    width: 412px;
+    height: 100px;
+    border: 1px solid #D6BCFA;
+    border-radius: 15px;
+}
+
+.txt-accordion{
+    color: black;
+    font-weight: 500;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.footer-banner{
+    width: 1300px;
+    height: 446px;
+    left: calc(50% - 1300px/2);
+    top: 80px;
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+}
+
+.img-footer-size{
+    width: 30rme;
+    height: 30rem;
+}
+
+.bt-btn{
+    width: 11.6rem;
+    height: 3rem;
+}
+
+.foot-bar{
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+.txt-footer{
+    padding: 0 8rem;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--bs-gray-500)
+}
+
+.ft{
+    border-bottom: .1rem solid var(--bs-gray-400);
+}
